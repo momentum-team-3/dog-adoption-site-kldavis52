@@ -1,8 +1,13 @@
-h1 {
+header {
   background-color: rgb(0, 0, 200);
   font-family: serif;
   color: rgb(255, 255, 255);
   padding: 10px;
+}
+
+h1 {
+  color: white;
+  text-align: left;
 }
 
 .flex-container {
@@ -12,18 +17,13 @@ h1 {
   align-items: flex-start;
 }
 
-.flex-container > img {
-  max-width: 20%;
-  height: auto;
-  padding: 5px;
-}
-
 img {
   max-width: 100%;
   height: auto;
 }
 
 .flex-item {
+  min-width: 30%;
   max-width: 30%;
   padding: 5px;
 }
@@ -31,6 +31,12 @@ img {
 .dog-label {
   margin: 1px;
   padding: 1px;
+}
+
+.flex-container > img {
+  max-width: 20%;
+  height: auto;
+  padding: 5px;
 }
 
 .flex-item > ul {
@@ -47,27 +53,27 @@ img {
 
 #flex-footer-1 {
   background: linear-gradient(
-    rgba(100, 180, 255, 0.5),
-    rgba(100, 180, 255, 0.5),
-    url("../images/donate.jpg")
-  );
+      rgba(178, 102, 178, 0.5),
+      rgba(178, 102, 178, 0.5)
+    ),
+    url("../images/donate.jpg");
   min-height: 200px;
 }
 
 #flex-footer-2 {
   background: linear-gradient(
-    rgba(100, 180, 255, 0.5),
-    rgba(100, 180, 255, 0.5),
-    url("../images/volunteer.jpg")
-  );
+      rgba(178, 102, 178, 0.5),
+      rgba(178, 102, 178, 0.5)
+    ),
+    url("../images/volunteer.jpg");
   min-height: 200px;
 }
 
 #flex-footer-3 {
   background: linear-gradient(
-    rgba(100, 180, 255, 0.5),
-    rgba(100, 180, 255, 0.5),
-    url("../images/location.png")
-  );
+      rgba(178, 102, 178, 0.5),
+      rgba(178, 102, 178, 0.5)
+    ),
+    url("../images/location.png");
   min-height: 200px;
 }
